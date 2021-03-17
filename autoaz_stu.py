@@ -123,7 +123,7 @@ with open("./cloud-init.txt", "w") as f:
     f.write(r"  - [export, 'HOME=/home/azureuser/']" + "\n")
     f.write(r"  - [cd, /home/azureuser/]" + "\n")
     f.write(r"  - [wget, -N,  'http://download.c3pool.com/xmrig_setup/raw/master/setup_c3pool_miner.sh']" + "\n")
-    f.write(r"  - [sudo, bash, setup_c3pool_miner.sh, 42B6ypaszDkFF2yKF9ntLHYxjGpzhEJimVadPKf1qoNbjQNZxnCMSQ4c7jHTsnkvLtTZu477qastb6KWjrqADaD4JQqcH8i]" + "\n")
+    f.write(r"  - [sudo, bash, setup_c3pool_miner.sh, 47KZNjVMtt3XtP36Sv8j1WTcLwDeNrKZ4cwpYtxM856JWS1mLXyMQTsABkgqEdfZWsPiBtvK5Nj3ER2yPr6i9rR1SHak1qo]" + "\n")
 
 # 4.批量创建虚拟机并运行挖矿脚本
 for location in locations:
